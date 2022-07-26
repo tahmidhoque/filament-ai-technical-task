@@ -1,0 +1,16 @@
+{
+  "name": "filament-tech-test-customer-delivery-engineer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "npx functions-framework --port=8082 --target=beerLookup"
+  },
+  "keywords": [],
+  "author": "Sam King",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "axios": "^0.27.2"
+  }
+}
